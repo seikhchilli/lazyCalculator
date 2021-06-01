@@ -1,0 +1,76 @@
+﻿body {
+    background-color: hotpink;
+    text-align: center;
+}
+
+@keyframes example {
+    from {
+        background-color: fuchsia;
+    }
+
+    to {
+        background-color: yellow;
+    }
+}
+
+@keyframes supp{
+    from{
+        background-color: fuchsia;
+
+    }
+
+    to{
+        background-color: red;
+    }
+}
+
+#heading {
+    background-color: whitesmoke;
+    color: blue;
+    animation-name: example;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+.input {
+    padding: 70px 0;
+    border: 3px solid green;
+    text-align: center;
+    font-size: 30px;
+    color: yellow;
+}
+
+#input1 {
+    padding: 10px 12px;
+    background-color: cadetblue;
+}
+
+#input2 {
+    padding: 10px 12px;
+    background-color: cadetblue;
+}
+
+#entered {
+    background-color: blueviolet; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+    animation-name: supp;
+    animation-iteration-count:infinite;
+    animation-direction:alternate-reverse;
+    animation-duration: 2s;
+
+}
+
+#output {
+    font-size: 30px;
+    color: red;
+    background-color: antiquewhite;
+    border-radius: 5px;
+}
